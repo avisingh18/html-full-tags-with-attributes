@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete HTML Tags Reference</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; background: #f9f9f9; }
+        h1, h2 { color: #2c3e50; }
+        code { background: #e1e1e1; padding: 2px 4px; border-radius: 4px; }
+        section { margin-bottom: 20px; padding: 10px; background: #fff; border-left: 4px solid #3498db; }
+        .deprecated { background-color: #ffe6e6; border-left-color: #e74c3c; }
+        .experimental { background-color: #fff3cd; border-left-color: #f1c40f; }
+    </style>
+</head>
+<body>
+    <h1>HTML Tags and Attributes</h1>
+    <p>This is a complete list of HTML tags with descriptions, common attributes, and usage examples.</p>
+
+    <section class="">
+        <h2>&lt;a&gt;</h2>
+        <p><strong>Description:</strong> Creates hyperlinks.</p>
+        <p><strong>Attributes:</strong> href, target, rel, download, type</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><a href="https://example.com" target="_blank">Visit Site</a></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;abbr&gt;</h2>
+        <p><strong>Description:</strong> Defines abbreviations with a tooltip.</p>
+        <p><strong>Attributes:</strong> title</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><abbr title="HyperText Markup Language">HTML</abbr></code></pre>
+    </section>
+    
+    <section class="deprecated">
+        <h2>&lt;acronym&gt;</h2>
+        <p><strong>Description:</strong> Deprecated. Was used like <abbr>.</p>
+        <p><strong>Attributes:</strong> title</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><acronym title="World Health Organization">WHO</acronym></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;address&gt;</h2>
+        <p><strong>Description:</strong> Defines contact information.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><address>Email: <a href="mailto:info@example.com">info@example.com</a></address></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;area&gt;</h2>
+        <p><strong>Description:</strong> Defines an area in an image map.</p>
+        <p><strong>Attributes:</strong> shape, coords, href, alt, target</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Example"></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;article&gt;</h2>
+        <p><strong>Description:</strong> Defines independent content.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><article><h2>Blog Title</h2><p>This is an article.</p></article></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;aside&gt;</h2>
+        <p><strong>Description:</strong> Defines content aside from the page content.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><aside><h3>Related Info</h3><p>This is a sidebar.</p></aside></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;audio&gt;</h2>
+        <p><strong>Description:</strong> Embeds sound content.</p>
+        <p><strong>Attributes:</strong> src, controls, autoplay, loop, muted</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><audio src="song.mp3" controls></audio></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;b&gt;</h2>
+        <p><strong>Description:</strong> Defines bold text without extra importance.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><b>Bold text</b></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;base&gt;</h2>
+        <p><strong>Description:</strong> Specifies a base URL for all relative URLs.</p>
+        <p><strong>Attributes:</strong> href, target</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><base href="https://example.com/" target="_blank"></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;bdi&gt;</h2>
+        <p><strong>Description:</strong> Isolates text direction in mixed-language content.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><bdi>أحمد</bdi> scored 95 points.</code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;bdo&gt;</h2>
+        <p><strong>Description:</strong> Overrides the current text direction.</p>
+        <p><strong>Attributes:</strong> dir</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><bdo dir="rtl">This will be reversed</bdo></code></pre>
+    </section>
+    
+    <section class="deprecated">
+        <h2>&lt;big&gt;</h2>
+        <p><strong>Description:</strong> Deprecated. Was used to make text larger.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><big>Big Text</big></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;blockquote&gt;</h2>
+        <p><strong>Description:</strong> Defines long quotations.</p>
+        <p><strong>Attributes:</strong> cite</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><blockquote cite="https://example.com">Quote</blockquote></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;body&gt;</h2>
+        <p><strong>Description:</strong> Main content of the HTML document.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><body>Page content</body></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;br&gt;</h2>
+        <p><strong>Description:</strong> Inserts a single line break.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code>Line1<br>Line2</code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;button&gt;</h2>
+        <p><strong>Description:</strong> Clickable button.</p>
+        <p><strong>Attributes:</strong> type, disabled, name, value</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><button type="submit">Submit</button></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;canvas&gt;</h2>
+        <p><strong>Description:</strong> Draw graphics on the fly via JavaScript.</p>
+        <p><strong>Attributes:</strong> width, height</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><canvas id="myCanvas" width="200" height="100"></canvas></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;caption&gt;</h2>
+        <p><strong>Description:</strong> Defines a table caption.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><caption>Student Marks</caption></code></pre>
+    </section>
+    
+    <section class="deprecated">
+        <h2>&lt;center&gt;</h2>
+        <p><strong>Description:</strong> Deprecated. Centers text.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><center>Centered</center></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;cite&gt;</h2>
+        <p><strong>Description:</strong> Defines the title of a work.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><cite>Hamlet</cite></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;code&gt;</h2>
+        <p><strong>Description:</strong> Specifies code snippets.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><code>console.log("Hello");</code></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;col&gt;</h2>
+        <p><strong>Description:</strong> Specifies column properties for each column within a <colgroup> element.</p>
+        <p><strong>Attributes:</strong> span, style, class</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><col span="2" style="background-color: yellow;"></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;colgroup&gt;</h2>
+        <p><strong>Description:</strong> Groups one or more <col> elements.</p>
+        <p><strong>Attributes:</strong> span</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><colgroup><col></colgroup></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;data&gt;</h2>
+        <p><strong>Description:</strong> Links a content with a machine-readable translation.</p>
+        <p><strong>Attributes:</strong> value</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><data value="123">Product A</data></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;datalist&gt;</h2>
+        <p><strong>Description:</strong> Specifies a list of pre-defined options for input controls.</p>
+        <p><strong>Attributes:</strong> id</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><datalist id="browsers"><option value="Chrome"></datalist></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;dd&gt;</h2>
+        <p><strong>Description:</strong> Provides the description for a term in a description list.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><dd>Description here</dd></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;del&gt;</h2>
+        <p><strong>Description:</strong> Represents deleted text.</p>
+        <p><strong>Attributes:</strong> cite, datetime</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><del datetime="2024-01-01">Old text</del></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;details&gt;</h2>
+        <p><strong>Description:</strong> Creates a disclosure widget.</p>
+        <p><strong>Attributes:</strong> open</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><details><summary>More info</summary><p>Details here.</p></details></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;dfn&gt;</h2>
+        <p><strong>Description:</strong> Defines a term that is going to be defined.</p>
+        <p><strong>Attributes:</strong> title</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><dfn title="HyperText Markup Language">HTML</dfn></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;dialog&gt;</h2>
+        <p><strong>Description:</strong> Defines a dialog box or window.</p>
+        <p><strong>Attributes:</strong> open</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><dialog open>This is a dialog</dialog></code></pre>
+    </section>
+    
+    <section class="deprecated">
+        <h2>&lt;dir&gt;</h2>
+        <p><strong>Description:</strong> Deprecated. Used for directory lists.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><dir><li>Item</li></dir></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;div&gt;</h2>
+        <p><strong>Description:</strong> Defines a division or section.</p>
+        <p><strong>Attributes:</strong> class, id</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><div class="box">Content</div></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;dl&gt;</h2>
+        <p><strong>Description:</strong> Defines a description list.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><dl><dt>Term</dt><dd>Description</dd></dl></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;dt&gt;</h2>
+        <p><strong>Description:</strong> Defines a term in a description list.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><dt>HTML</dt></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;em&gt;</h2>
+        <p><strong>Description:</strong> Marks emphasized text.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><em>Important</em></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;embed&gt;</h2>
+        <p><strong>Description:</strong> Embeds external content.</p>
+        <p><strong>Attributes:</strong> src, type, width, height</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><embed src="file.pdf" type="application/pdf"></code></pre>
+    </section>
+    
+    <section class="experimental">
+        <h2>&lt;fencedframe&gt;</h2>
+        <p><strong>Description:</strong> Experimental. Secure iframe replacement.</p>
+        <p><strong>Attributes:</strong> src, sandbox</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><fencedframe src="page.html"></fencedframe></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;fieldset&gt;</h2>
+        <p><strong>Description:</strong> Groups form controls.</p>
+        <p><strong>Attributes:</strong> disabled, form, name</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><fieldset><legend>Info</legend></fieldset></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;figcaption&gt;</h2>
+        <p><strong>Description:</strong> Caption for a <figure> element.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><figcaption>Caption here</figcaption></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;figure&gt;</h2>
+        <p><strong>Description:</strong> Self-contained content like images, diagrams, etc.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><figure><img src="img.jpg"><figcaption>Caption</figcaption></figure></code></pre>
+    </section>
+    
+    <section class="deprecated">
+        <h2>&lt;font&gt;</h2>
+        <p><strong>Description:</strong> Deprecated. Used for styling text.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><font color="red">Red Text</font></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;footer&gt;</h2>
+        <p><strong>Description:</strong> Defines the footer section.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><footer>Copyright 2025</footer></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;form&gt;</h2>
+        <p><strong>Description:</strong> Form for user input.</p>
+        <p><strong>Attributes:</strong> action, method</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><form action="/submit" method="post"></form></code></pre>
+    </section>
+    
+    <section class="deprecated">
+        <h2>&lt;frame&gt;</h2>
+        <p><strong>Description:</strong> Deprecated. Used in old frameset layouts.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><frame src="page.html"></code></pre>
+    </section>
+    
+    <section class="deprecated">
+        <h2>&lt;frameset&gt;</h2>
+        <p><strong>Description:</strong> Deprecated. Was used to define a frameset.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><frameset cols="50%,50%"><frame src="a.html"><frame src="b.html"></frameset></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;h1&gt;</h2>
+        <p><strong>Description:</strong> Defines a top-level heading.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><h1>Main Heading</h1></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;head&gt;</h2>
+        <p><strong>Description:</strong> Container for metadata.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><head><title>Page</title></head></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;header&gt;</h2>
+        <p><strong>Description:</strong> Defines a header for a section or page.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><header>Site Header</header></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;hgroup&gt;</h2>
+        <p><strong>Description:</strong> Groups heading elements.</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><hgroup><h1>Main</h1><h2>Sub</h2></hgroup></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;hr&gt;</h2>
+        <p><strong>Description:</strong> Thematic break (horizontal rule).</p>
+        <p><strong>Attributes:</strong> None</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><hr></code></pre>
+    </section>
+    
+    <section class="">
+        <h2>&lt;html&gt;</h2>
+        <p><strong>Description:</strong> Root element of HTML document.</p>
+        <p><strong>Attributes:</strong> lang</p>
+        <p><strong>Example:</strong></p>
+        <pre><code><html lang="en"></code></pre>
+    </section>
+    
+</body>
+</html>
